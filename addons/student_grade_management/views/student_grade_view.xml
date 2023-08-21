@@ -1,0 +1,44 @@
+<odoo>
+	<data>
+		<!-- VIEW FORM -->
+		<record id="view_student_grade_tree" model="ir.ui.view">
+			<field name="name">student.grade.tree</field>
+			<field name="model">student.grade</field>
+			<field name="arch" type="xml">
+				<tree>
+					<field name="student_id" />
+					<field name="course_id" />
+					<field name="grade" />
+				</tree>
+			</field>
+		</record>
+
+		<!-- VIEW TREE -->
+		<record id="view_student_grade_form" model="ir.ui.view">
+			<field name="name">student.grade.form</field>
+			<field name="model">student.grade</field>
+			<field name="arch" type="xml">
+				<form>
+					<sheet>
+						<group>
+							<field name="student_id" />
+							<field name="course_id" />
+							<field name="grade" />
+						</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+		<!-- ACTION -->
+		<record model="ir.actions.act_window" id="action_student_grade">
+			<field name="name">Quản lý điểm</field>
+			<field name="res_model">student.grade</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		<menuitem id="menu_student_grade" name="Quản lý điểm"
+			parent="menu_student_grade_management"
+			action="action_student_grade" />
+	</data>
+</odoo>
