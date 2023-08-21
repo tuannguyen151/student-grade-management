@@ -1,0 +1,57 @@
+<odoo>
+    <data>
+        <template id="report_student_template">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="student">
+                    <t t-call="web.external_layout">
+                        <div class="page">
+                            <div class="row" id="header">
+                                <div class="col-12">
+                                    <h2>Báo cáo Điểm Sinh viên</h2>
+                                    <div>
+                                        <strong>Họ và tên: </strong>
+                                        <span t-field="student.full_name" />
+                                    </div>
+                                    <div>
+                                        <strong>Mã sinh viên: </strong>
+                                        <span t-field="student.student_code" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Tên học phần</th>
+                                                <th>Mã học phần</th>
+                                                <th>Điểm</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <t t-set="student_grades"
+                                                t-value="student.student_grade_ids" />
+                                            <t t-foreach="student_grades" t-as="student_grade">
+                                                <tr>
+                                                    <td>
+                                                        <span t-field="student_grade.course_id.name" />
+                                                    </td>
+                                                    <td>
+                                                        <span t-field="student_grade.course_id.code" />
+                                                    </td>
+                                                    <td>
+                                                        <span t-field="student_grade.grade" />
+                                                    </td>
+                                                </tr>
+                                            </t>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>

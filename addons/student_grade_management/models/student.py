@@ -11,6 +11,7 @@ class Student(models.Model):
     student_code = fields.Char(string="Mã Sinh Viên", required=True)
     birthday = fields.Date(string="Ngày Sinh")
     address = fields.Text(string="Địa chỉ")
+    student_grade_ids = fields.One2many("student.grade", "student_id", string="Điểm")
 
     def action_student_form(self):
         self.ensure_one()
