@@ -29,6 +29,20 @@
             </field>
         </record>
 
+        <!-- VIEW SEARCH -->
+        <data>
+            <record id="view_course_search_form" model="ir.ui.view">
+                <field name="name">course.search.form</field>
+                <field name="model">course</field>
+                <field name="arch" type="xml">
+                    <search string="Search Courses">
+                        <field name="name" />
+                        <field name="code" />
+                    </search>
+                </field>
+            </record>
+        </data>
+
         <!-- ACTION -->
         <record model="ir.actions.act_window" id="action_course">
             <field name="name">Quản lý học phần</field>

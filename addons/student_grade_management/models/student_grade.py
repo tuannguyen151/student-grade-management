@@ -7,7 +7,7 @@ class StudentGrade(models.Model):
     _description = "Student Grade"
     _rec_name = "student_id"
 
-    student_id = fields.Many2one("student", string="Học sinh", required=True)
+    student_id = fields.Many2one("student", string="Sinh viên", required=True)
     course_id = fields.Many2one("course", string="Học phần", required=True)
     grade = fields.Float(string="Điểm", required=True)
 
@@ -26,5 +26,5 @@ class StudentGrade(models.Model):
             ]
             if self.search_count(domain) > 1:
                 raise ValidationError(
-                    "Mỗi học sinh chỉ được phép có một bản ghi với cùng học phần."
+                    "Mỗi sinh viên chỉ được phép có một bản ghi với cùng học phần."
                 )

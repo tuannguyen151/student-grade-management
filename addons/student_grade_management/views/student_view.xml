@@ -44,6 +44,20 @@
             </field>
         </record>
 
+        <!-- VIEW SEARCH -->
+        <data>
+            <record id="view_student_search_form" model="ir.ui.view">
+                <field name="name">student.search.form</field>
+                <field name="model">student</field>
+                <field name="arch" type="xml">
+                    <search string="Search Students">
+                        <field name="full_name" />
+                        <field name="student_code" />
+                    </search>
+                </field>
+            </record>
+        </data>
+
         <!-- ACTION -->
         <record id="action_student" model="ir.actions.act_window">
             <field name="name">Quản lý sinh viên</field>

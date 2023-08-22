@@ -30,6 +30,20 @@
 			</field>
 		</record>
 
+		<!-- VIEW SEARCH -->
+		<record id="view_student_grade_search_form" model="ir.ui.view">
+			<field name="name">student.grade.search.form</field>
+			<field name="model">student.grade</field>
+			<field name="arch" type="xml">
+				<search string="Search Student Grades">
+					<field name="student_id"
+						filter_domain="['|', ('student_id.student_code', 'ilike', self), ('student_id.full_name', 'ilike', self)]" />
+					<field name="course_id"
+						filter_domain="['|', ('course_id.code', 'ilike', self), ('course_id.name', 'ilike', self)]" />
+				</search>
+			</field>
+		</record>
+
 		<!-- ACTION -->
 		<record model="ir.actions.act_window" id="action_student_grade">
 			<field name="name">Quản lý điểm</field>
