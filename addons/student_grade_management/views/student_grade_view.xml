@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- VIEW FORM -->
+        <record id="view_student_grade_form" model="ir.ui.view">
+            <field name="name">student.grade.form</field>
+            <field name="model">student.grade</field>
+            <field name="arch" type="xml">
+                <form string="Student Grade">
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="student_id" placeholder="Sinh viên" required="True" />
+                            </h1>
+                            <h2>
+                                <field name="course_id" placeholder="Học phần"
+                                    required="True" />
+                            </h2>
+                        </div>
+
+                        <group>
+                            <group>
+                                <field name="start_date" placeholder="Ngày bắt đầu" required="True" />
+                                <field name="end_date" placeholder="Ngày kết thúc" required="True" />
+                                <field name="grade" placeholder="Điểm" required="True" />
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- VIEW TREE -->
+        <record id="view_student_grade_tree" model="ir.ui.view">
+            <field name="name">student.grade.tree</field>
+            <field name="model">student.grade</field>
+            <field name="arch" type="xml">
+                <tree multi_edit="1" sample="1">
+                    <field name="student_id" />
+                    <field name="course_id" />
+                    <field name="start_date" />
+                    <field name="end_date" />
+                    <field name="grade" />
+
+                    <button name="unlink" string="Xóa" type="object"
+                        class="oe_delete"
+                        confirm="Bạn có chắc muốn xóa bản ghi này không?" />
+                </tree>
+            </field>
+        </record>
+
+        <!-- VIEW SEARCH -->
+        <record id="view_student_grade_search_form" model="ir.ui.view">
+            <field name="name">student.grade.search.form</field>
+            <field name="model">student.grade</field>
+            <field name="arch" type="xml">
+                <search string="Search Student Grades">
+                    <field name="student_id"
+                        filter_domain="['|', ('student_id.code', 'ilike', self), ('student_id.name', 'ilike', self)]" />
+                    <field name="course_id"
+                        filter_domain="['|', ('course_id.code', 'ilike', self), ('course_id.name', 'ilike', self)]" />
+                </search>
+            </field>
+        </record>
+
+        <!-- ACTION -->
+        <record model="ir.actions.act_window" id="action_student_grade">
+            <field name="name">Quản lý điểm</field>
+            <field name="res_model">student.grade</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- MENU ITEM -->
+        <menuitem id="menu_student_grade" name="Quản lý điểm"
+            parent="menu_student_grade_management"
+            action="action_student_grade" />
+    </data>
+</odoo>

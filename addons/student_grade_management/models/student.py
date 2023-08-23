@@ -12,6 +12,7 @@ class Student(models.Model):
     birthday = fields.Date(string="Ngày Sinh")
     phone = fields.Char(string="Số điện thoại")
     address = fields.Char(string="Địa chỉ")
+    student_grade_ids = fields.One2many("student.grade", "student_id", string="Điểm")
 
     @api.constrains("code")
     def _check_unique_code(self):

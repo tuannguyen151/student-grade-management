@@ -1,3 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 student_grade_management.access_student,access_student,student_grade_management.model_student,base.group_user,1,1,1,1
 student_grade_management.access_course,access_course,student_grade_management.model_course,base.group_user,1,1,1,1
+student_grade_management.access_student_grade,access_student_grade,student_grade_management.model_student_grade,base.group_user,1,1,1,1
