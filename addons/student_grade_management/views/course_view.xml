@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- VIEW FORM -->
+        <record id="view_course_form" model="ir.ui.view">
+            <field name="name">course.form</field>
+            <field name="model">course</field>
+            <field name="arch" type="xml">
+                <form string="Course">
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Tên học phần" required="True" />
+                            </h1>
+                            <h2>
+                                <field name="code" placeholder="Mã học phần"
+                                    required="True" />
+                            </h2>
+                        </div>
+
+                        <group>
+                            <group>
+                                <field name="credits" placeholder="Số tín chỉ" />
+                                <field name="tuition_fee" placeholder="Học phí" />
+                            </group>
+                        </group>
+
+                        <group>
+                            <field name="description" placeholder="Mô tả" />
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- VIEW TREE -->
+        <record id="view_course_tree" model="ir.ui.view">
+            <field name="name">course.tree</field>
+            <field name="model">course</field>
+            <field name="arch" type="xml">
+                <tree multi_edit="1" sample="1">
+                    <field name="name" />
+                    <field name="code" />
+                    <field name="credits" />
+                    <field name="tuition_fee" />
+                    <field name="description" />
+                    <button name="unlink" string="Xóa" type="object"
+                        class="oe_delete"
+                        confirm="Bạn có chắc muốn xóa bản ghi này không?" />
+                </tree>
+            </field>
+        </record>
+
+        <!-- VIEW SEARCH -->
+        <data>
+            <record id="view_course_search_form" model="ir.ui.view">
+                <field name="name">course.search.form</field>
+                <field name="model">course</field>
+                <field name="arch" type="xml">
+                    <search string="Search Courses">
+                        <field name="name" />
+                        <field name="code" />
+                    </search>
+                </field>
+            </record>
+        </data>
+
+        <!-- ACTION -->
+        <record model="ir.actions.act_window" id="action_course">
+            <field name="name">Quản lý học phần</field>
+            <field name="res_model">course</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- MENU ITEM -->
+        <menuitem id="menu_course" name="Quản lý học phần"
+            parent="menu_student_grade_management"
+            action="action_course" />
+    </data>
+</odoo>
