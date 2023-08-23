@@ -20,3 +20,9 @@ class Course(models.Model):
     tuition_fee = fields.Integer(string="Học phí", required=True)
     description = fields.Text(string="Mô tả")
     student_grade_ids = fields.One2many("student.grade", "course_id", string="Điểm")
+
+    def get_low_grades(self, grade_max=5):
+        return self.student_grade_ids.filtered(lambda grade: grade.grade < grade_max)
+
+    def get_high_or_equal_grades(self, grade_min=5):
+        return self.student_grade_ids.filtered(lambda grade: grade.grade >= grade_min)

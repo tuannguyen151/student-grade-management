@@ -36,8 +36,8 @@
                   <table class="table table-bordered">
                     <thead>
                       <tr>
-                        <th>Tên học sinh</th>
-                        <th>Mã học sinh</th>
+                        <th>Tên sinh viên</th>
+                        <th>Mã sinh viên</th>
                         <th>Điểm</th>
                       </tr>
                     </thead>
@@ -63,6 +63,156 @@
                         <tr>
                           <td colspan="3" class="text-center">
                             <strong>Không có dữ liệu</strong>
+                          </td>
+                        </tr>
+                      </t>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </t>
+        </t>
+      </t>
+    </template>
+
+    <template id="report_students_below_5_template">
+      <t t-call="web.html_container">
+        <t t-foreach="docs" t-as="course">
+          <t t-call="web.external_layout">
+            <div class="page">
+              <div class="row" id="header">
+                <div class="col-12">
+                  <h2>Danh sách sinh viên có điểm nhỏ hơn 5</h2>
+                  <div>
+                    <strong>Tên học phần: </strong>
+                    <span t-field="course.name" />
+                  </div>
+                  <div>
+                    <strong>Mã học phần: </strong>
+                    <span t-field="course.code" />
+                  </div>
+                  <div t-if="course.credits">
+                    <strong>Số tín chỉ: </strong>
+                    <span t-field="course.credits" />
+                  </div>
+                  <div t-if="course.tuition_fee">
+                    <strong>Học phí: </strong>
+                    <span t-field="course.tuition_fee" />
+                  </div>
+                  <div t-if="course.description">
+                    <strong>Mô tả: </strong>
+                    <span t-field="course.description" />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th>Tên sinh viên</th>
+                        <th>Mã sinh viên</th>
+                        <th>Điểm</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <t t-set="filtered_grades"
+                        t-value="course.get_low_grades(5)" />
+                      <t t-if="filtered_grades">
+                        <t t-foreach="filtered_grades" t-as="student_grade">
+                          <tr>
+                            <td>
+                              <span t-field="student_grade.student_id.name" />
+                            </td>
+                            <td>
+                              <span t-field="student_grade.student_id.code" />
+                            </td>
+                            <td>
+                              <span t-field="student_grade.grade" />
+                            </td>
+                          </tr>
+                        </t>
+                      </t>
+                      <t t-else="">
+                        <tr>
+                          <td colspan="3" class="text-center">
+                            <strong>Không có sinh viên</strong>
+                          </td>
+                        </tr>
+                      </t>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </t>
+        </t>
+      </t>
+    </template>
+
+    <template id="report_students_above_5_template">
+      <t t-call="web.html_container">
+        <t t-foreach="docs" t-as="course">
+          <t t-call="web.external_layout">
+            <div class="page">
+              <div class="row" id="header">
+                <div class="col-12">
+                  <h2>Danh sách sinh viên có điểm lớn hơn hoặc bằng 5</h2>
+                  <div>
+                    <strong>Tên học phần: </strong>
+                    <span t-field="course.name" />
+                  </div>
+                  <div>
+                    <strong>Mã học phần: </strong>
+                    <span t-field="course.code" />
+                  </div>
+                  <div t-if="course.credits">
+                    <strong>Số tín chỉ: </strong>
+                    <span t-field="course.credits" />
+                  </div>
+                  <div t-if="course.tuition_fee">
+                    <strong>Học phí: </strong>
+                    <span t-field="course.tuition_fee" />
+                  </div>
+                  <div t-if="course.description">
+                    <strong>Mô tả: </strong>
+                    <span t-field="course.description" />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th>Tên sinh viên</th>
+                        <th>Mã sinh viên</th>
+                        <th>Điểm</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <t t-set="filtered_grades"
+                        t-value="course.get_high_or_equal_grades(5)" />
+                      <t t-if="filtered_grades">
+                        <t t-foreach="filtered_grades" t-as="student_grade">
+                          <tr>
+                            <td>
+                              <span t-field="student_grade.student_id.name" />
+                            </td>
+                            <td>
+                              <span t-field="student_grade.student_id.code" />
+                            </td>
+                            <td>
+                              <span t-field="student_grade.grade" />
+                            </td>
+                          </tr>
+                        </t>
+                      </t>
+                      <t t-else="">
+                        <tr>
+                          <td colspan="3" class="text-center">
+                            <strong>Không có sinh viên</strong>
                           </td>
                         </tr>
                       </t>
