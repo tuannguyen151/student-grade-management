@@ -7,6 +7,12 @@
             <field name="model">student</field>
             <field name="arch" type="xml">
                 <form string="Student">
+                    <header>
+                        <button name="action_generate_student_report"
+                            string="Bảng điểm" type="object"
+                            class="btn btn-outline-primary" />
+                    </header>
+
                     <sheet>
                         <div class="oe_title">
                             <h1>
@@ -47,6 +53,8 @@
                     <field name="birthday" />
                     <field name="phone" />
                     <field name="address" />
+                    <button name="action_generate_student_report"
+                        string="Bảng điểm" type="object" />
                     <button name="unlink" string="Xóa" type="object"
                         class="oe_delete"
                         confirm="Bạn có chắc muốn xóa bản ghi này không?" />
@@ -91,9 +99,15 @@
                                     </ul>
                                 </div>
 
-                                <button name="unlink" string="Xóa" type="object"
-                                    class="oe_delete btn btn-outline-danger"
-                                    confirm="Bạn có chắc muốn xóa bản ghi này không?" />
+                                <div class="d-grid gap-3">
+                                    <button name="action_generate_student_report"
+                                        string="Bảng điểm" type="object"
+                                        class="btn btn-outline-primary" />
+
+                                    <button name="unlink" string="Xóa" type="object"
+                                        class="oe_delete btn btn-outline-danger"
+                                        confirm="Bạn có chắc muốn xóa bản ghi này không?" />
+                                </div>
                             </div>
                         </t>
                     </templates>
@@ -124,11 +138,12 @@
 
         <!-- REPORT -->
         <record id="action_report_student" model="ir.actions.report">
-            <field name="name">Báo cáo Điểm Sinh viên</field>
+            <field name="name">Bảng điểm của sinh viên</field>
             <field name="model">student</field>
             <field name="report_type">qweb-pdf</field>
             <field name="report_name">student_grade_management.report_student_template</field>
             <field name="report_file">student_grade_management.student</field>
+            <field name="print_report_name">"Bảng điểm của sinh viên - " + object.code</field>
             <field name="binding_model_id" ref="model_student" />
             <field name="binding_type">report</field>
         </record>
