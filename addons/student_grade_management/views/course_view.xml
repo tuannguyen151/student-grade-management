@@ -72,6 +72,17 @@
             <field name="view_mode">tree,form</field>
         </record>
 
+        <!-- REPORT -->
+        <record id="action_report_course" model="ir.actions.report">
+            <field name="name">Bảng điểm theo học phần</field>
+            <field name="model">course</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">student_grade_management.report_course_template</field>
+            <field name="report_file">student_grade_management.course</field>
+            <field name="binding_model_id" ref="model_course" />
+            <field name="binding_type">report</field>
+        </record>
+
         <!-- MENU ITEM -->
         <menuitem id="menu_course" name="Quản lý học phần"
             parent="menu_student_grade_management"
