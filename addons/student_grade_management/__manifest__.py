@@ -10,5 +10,10 @@
         "views/course_view.xml",
         "views/student_grade_view.xml",
     ],
+    "assets": {
+        "web.assets_backend": [
+            "student_grade_management/static/src/scss/student_grade_management.scss"
+        ]
+    },
     "installable": True,
 }
