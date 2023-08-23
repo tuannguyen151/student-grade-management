@@ -122,6 +122,17 @@
             </record>
         </data>
 
+        <!-- REPORT -->
+        <record id="action_report_student" model="ir.actions.report">
+            <field name="name">Báo cáo Điểm Sinh viên</field>
+            <field name="model">student</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">student_grade_management.report_student_template</field>
+            <field name="report_file">student_grade_management.report_student_template</field>
+            <field name="binding_model_id" ref="model_student" />
+            <field name="binding_type">report</field>
+        </record>
+
         <!-- MENU ITEM -->
         <menuitem id="menu_student_grade_management" name="Quản lý điểm của sinh viên" />
         <menuitem id="menu_student_management" name="Quản lý sinh viên"

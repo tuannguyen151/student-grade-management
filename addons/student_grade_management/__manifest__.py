@@ -4,9 +4,10 @@
     "author": "Tuan Nguyen - 1041360309",
     "summary": "[HAUI] Quản lý điểm của sinh viên",
     "images": ["static/description/icon.png"],
-    "depends": ["base"],
+    "depends": ["base", "web"],
     "data": [
         "security/ir.model.access.csv",
+        "report/student.xml",
         "views/student_view.xml",
         "views/course_view.xml",
         "views/student_grade_view.xml",
