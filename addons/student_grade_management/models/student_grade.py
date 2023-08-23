@@ -9,6 +9,11 @@ class StudentGrade(models.Model):
 
     _sql_constraints = [
         (
+            "unique_student_course",
+            "UNIQUE(student_id, course_id)",
+            "Mỗi sinh viên chỉ được phép có một bản ghi với cùng học phần",
+        ),
+        (
             "check_grade_range",
             "CHECK(grade >= 0 AND grade <= 10)",
             "Điểm phải nằm trong khoảng từ 0 đến 10",
@@ -22,22 +27,6 @@ class StudentGrade(models.Model):
 
     student_id = fields.Many2one("student", string="Mã sinh viên", required=True)
     course_id = fields.Many2one("course", string="Mã học phần", required=True)
-    start_date = fields.Date(string="Ngày bắt đầu", required=True)
-    end_date = fields.Date(string="Ngày kết thúc", required=True)
+    start_date = fields.Date(string="Ngày bắt đầu")
+    end_date = fields.Date(string="Ngày kết thúc")
     grade = fields.Float(string="Điểm", required=True)
-
-    @api.constrains("start_date", "end_date", "student_id", "course_id")
-    def _check_unique_grade(self):
-        for grade in self:
-            domain = [
-                ("student_id", "=", grade.student_id.id),
-                ("course_id", "=", grade.course_id.id),
-                ("start_date", "<=", grade.end_date),
-                ("end_date", ">=", grade.start_date),
-                ("id", "!=", grade.id),
-            ]
-            if self.search_count(domain) > 0:
-                # Cần sửa validate chỉ có 1 bản ghi cho student và course không phân việt khoảng thời gian
-                raise ValidationError(
-                    "Mỗi sinh viên chỉ được phép có một bản ghi với cùng học phần và cùng khoảng thời gian"
-                )
