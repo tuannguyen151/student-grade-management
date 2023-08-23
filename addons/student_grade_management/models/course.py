@@ -18,3 +18,4 @@ class Course(models.Model):
     credits = fields.Integer(string="Số tín chỉ", required=True)
     tuition_fee = fields.Integer(string="Học phí", required=True)
     description = fields.Text(string="Mô tả")
+    student_grade_ids = fields.One2many("student.grade", "course_id", string="Điểm")
