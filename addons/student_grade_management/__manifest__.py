@@ -3,6 +3,7 @@
     "version": "1.0",
     "author": "Tuan Nguyen - 1041360309",
     "summary": "[HAUI] Quản lý điểm của sinh viên",
+    "images": ["static/description/icon.png"],
     "depends": ["base"],
     "data": [
         "security/ir.model.access.csv",

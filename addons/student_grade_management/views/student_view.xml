@@ -64,7 +64,7 @@
                                 class="oe_kanban_global_click o_kanban_record_has_image_fill o_hr_kanban_record">
                                 <field t-if="record.avatar.raw_value" name="avatar"
                                     class="o_kanban_image_fill_left d-block"
-                                    widget="background_image"
+                                    widget="image"
                                     options="{'zoom': true, 'zoom_delay': 500}" />
 
                                 <div class="oe_kanban_details">
