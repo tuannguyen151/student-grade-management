@@ -10,11 +10,14 @@
                     <sheet>
                         <div class="oe_title">
                             <h1>
-                                <field name="student_id" placeholder="Sinh viên" required="True" />
+                                <field name="student_id" placeholder="Mã sinh viên"
+                                    required="True"
+                                    options="{'no_create': True}" />
                             </h1>
                             <h2>
-                                <field name="course_id" placeholder="Học phần"
-                                    required="True" />
+                                <field name="course_id" placeholder="Mã học phần"
+                                    required="True"
+                                    options="{'no_create': True}" />
                             </h2>
                         </div>
 
@@ -56,9 +59,11 @@
             <field name="arch" type="xml">
                 <search string="Search Student Grades">
                     <field name="student_id"
-                        filter_domain="['|', ('student_id.code', 'ilike', self), ('student_id.name', 'ilike', self)]" />
+                        filter_domain="['|', ('student_id.code', 'ilike', self), ('student_id.name', 'ilike', self)]"
+                        string="Mã hoặc tên sinh viên" />
                     <field name="course_id"
-                        filter_domain="['|', ('course_id.code', 'ilike', self), ('course_id.name', 'ilike', self)]" />
+                        filter_domain="['|', ('course_id.code', 'ilike', self), ('course_id.name', 'ilike', self)]"
+                        string="Mã hoặc tên học phần" />
                 </search>
             </field>
         </record>

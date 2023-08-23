@@ -6,9 +6,9 @@
     "depends": ["base"],
     "data": [
         "security/ir.model.access.csv",
-        "views/student_grade_view.xml",
         "views/student_view.xml",
         "views/course_view.xml",
+        "views/student_grade_view.xml",
     ],
     "installable": True,
 }

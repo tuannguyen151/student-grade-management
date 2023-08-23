@@ -12,11 +12,16 @@ class StudentGrade(models.Model):
             "check_grade_range",
             "CHECK(grade >= 0 AND grade <= 10)",
             "Điểm phải nằm trong khoảng từ 0 đến 10",
-        )
+        ),
+        (
+            "check_start_end_dates",
+            "CHECK(start_date <= end_date)",
+            "Ngày bắt đầu phải nhỏ hơn hoặc bằng ngày kết thúc",
+        ),
     ]
 
-    student_id = fields.Many2one("student", string="Sinh viên", required=True)
-    course_id = fields.Many2one("course", string="Học phần", required=True)
+    student_id = fields.Many2one("student", string="Mã sinh viên", required=True)
+    course_id = fields.Many2one("course", string="Mã học phần", required=True)
     start_date = fields.Date(string="Ngày bắt đầu", required=True)
     end_date = fields.Date(string="Ngày kết thúc", required=True)
     grade = fields.Float(string="Điểm", required=True)
