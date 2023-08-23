@@ -5,6 +5,7 @@ from odoo.exceptions import ValidationError
 class Course(models.Model):
     _name = "course"
     _description = "Course"
+    _rec_name = "code"
 
     _sql_constraints = [
         ("unique_name", "UNIQUE(name)", "Tên học phần đã tồn tại"),

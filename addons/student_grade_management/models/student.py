@@ -6,6 +6,7 @@ from odoo.exceptions import ValidationError
 class Student(models.Model):
     _name = "student"
     _description = "Student"
+    _rec_name = "code"
 
     name = fields.Char(string="Họ Và Tên", required=True)
     code = fields.Char(string="Mã Sinh Viên", required=True)
@@ -23,7 +24,5 @@ class Student(models.Model):
     @api.constrains("phone")
     def _check_valid_phone(self):
         for student in self:
-            clean_phone = re.sub(r"\D", "", student.phone)
-
-            if not re.match(r"^0[1-9][0-9]{8}$", clean_phone):
+            if student.phone and not re.match(r"^0[1-9][0-9]{8}$", str(student.phone)):
                 raise ValidationError("Số điện thoại không hợp lệ")
