@@ -8,14 +8,36 @@
 						<div class="page">
 							<div class="row" id="header">
 								<div class="col-12">
-									<h2>Báo cáo Điểm Sinh viên</h2>
-									<div>
-										<strong>Họ và tên: </strong>
-										<span t-field="student.name" />
-									</div>
-									<div>
-										<strong>Mã sinh viên: </strong>
-										<span t-field="student.code" />
+									<h2>Bảng điểm của sinh viên</h2>
+
+									<div class="row">
+										<div class="col-8">
+											<p>
+												<strong>Họ và tên: </strong>
+												<span t-field="student.name" />
+											</p>
+											<p>
+												<strong>Mã sinh viên: </strong>
+												<span t-field="student.code" />
+											</p>
+											<p t-if="student.birthday">
+												<strong>Ngày sinh: </strong>
+												<span t-field="student.birthday" />
+											</p>
+											<p t-if="student.phone">
+												<strong>Số điện thoại: </strong>
+												<span t-field="student.phone" />
+											</p>
+											<p t-if="student.address">
+												<strong>Địa chỉ: </strong>
+												<span t-field="student.address" />
+											</p>
+										</div>
+
+										<div class="col-4" t-if="student.avatar">
+											<img t-att-src="image_data_uri(student.avatar)"
+												style="max-height:90pt" />
+										</div>
 									</div>
 								</div>
 							</div>

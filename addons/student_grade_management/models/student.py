@@ -27,3 +27,8 @@ class Student(models.Model):
         for student in self:
             if student.phone and not re.match(r"^0[1-9][0-9]{8}$", str(student.phone)):
                 raise ValidationError("Số điện thoại không hợp lệ")
+
+    def action_generate_student_report(self):
+        return self.env.ref(
+            "student_grade_management.action_report_student"
+        ).report_action(self)
