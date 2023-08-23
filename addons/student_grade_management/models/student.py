@@ -10,6 +10,7 @@ class Student(models.Model):
 
     name = fields.Char(string="Họ Và Tên", required=True)
     code = fields.Char(string="Mã Sinh Viên", required=True)
+    avatar = fields.Image(string="Ảnh đại diện")
     birthday = fields.Date(string="Ngày Sinh")
     phone = fields.Char(string="Số điện thoại")
     address = fields.Char(string="Địa chỉ")
