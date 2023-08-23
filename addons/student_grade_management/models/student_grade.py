@@ -37,6 +37,7 @@ class StudentGrade(models.Model):
                 ("id", "!=", grade.id),
             ]
             if self.search_count(domain) > 0:
+                # Cần sửa validate chỉ có 1 bản ghi cho student và course không phân việt khoảng thời gian
                 raise ValidationError(
                     "Mỗi sinh viên chỉ được phép có một bản ghi với cùng học phần và cùng khoảng thời gian"
                 )
