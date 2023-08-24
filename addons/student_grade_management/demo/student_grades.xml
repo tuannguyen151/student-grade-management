@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV001" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">5.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV002" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">7.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV003" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">1.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV004" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">7.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV005" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">1.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV006" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">1.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV007" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">1.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV008" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">9.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV009" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">1.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV010" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">4.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV011" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">0.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV012" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">0.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV013" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">0.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV014" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">0.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV015" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">4.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV016" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">4.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV017" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">8.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV018" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">1.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV019" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">9.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV020" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">4.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV021" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">0.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV022" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">5.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV023" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">8.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV024" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">7.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV025" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">7.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV026" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">3.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV027" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">5.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV028" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">4.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV029" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">6.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV030" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">6.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV031" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">6.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV032" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">3.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV033" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">3.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV034" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">5.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV035" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">1.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV036" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">6.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV037" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">8.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV038" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">5.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV039" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">0.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV040" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">1.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV041" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">9.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV042" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">0.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV043" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">5.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV044" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">7.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV045" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">9.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV046" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">8.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV047" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">9.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV048" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">4.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV049" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">7.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV050" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">2.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV051" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">7.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV052" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">5.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV053" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">3.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV054" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">9.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV055" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">0.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV056" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">6.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV057" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">6.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV058" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">3.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV059" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">8.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV060" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">5.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV061" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">3.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV062" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">6.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV063" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">3.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV064" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">8.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV065" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">3.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV066" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">1.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV067" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">8.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV068" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">3.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV069" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">6.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV070" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">2.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV071" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">8.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV072" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">7.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV073" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">0.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV074" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">7.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV075" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">7.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV076" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">0.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV077" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">6.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV078" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">8.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV079" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">6.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV080" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">1.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV081" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">5.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV082" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">9.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV083" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">0.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV084" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">2.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV085" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">4.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV086" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">9.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV087" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">4.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV088" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">2.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV089" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">7.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV090" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">7.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV091" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">5.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV092" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">0.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV093" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">4.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV094" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">2.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV095" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">5.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV096" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">7.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV097" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">0.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV098" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">6.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV099" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">3.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV100" />
+      <field name="course_id" ref="COURSE01" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">4.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV003" />
+      <field name="course_id" ref="COURSE22" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">6.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV004" />
+      <field name="course_id" ref="COURSE02" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">9.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV005" />
+      <field name="course_id" ref="COURSE02" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">0.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV006" />
+      <field name="course_id" ref="COURSE03" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">1.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV007" />
+      <field name="course_id" ref="COURSE03" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">8.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV008" />
+      <field name="course_id" ref="COURSE04" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">9.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV009" />
+      <field name="course_id" ref="COURSE04" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">5.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV010" />
+      <field name="course_id" ref="COURSE05" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">3.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV011" />
+      <field name="course_id" ref="COURSE05" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">0.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV012" />
+      <field name="course_id" ref="COURSE06" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">5.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV013" />
+      <field name="course_id" ref="COURSE06" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">8.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV014" />
+      <field name="course_id" ref="COURSE07" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">3.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV015" />
+      <field name="course_id" ref="COURSE07" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">9.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV016" />
+      <field name="course_id" ref="COURSE08" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">0.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV017" />
+      <field name="course_id" ref="COURSE08" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">5.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV018" />
+      <field name="course_id" ref="COURSE09" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">0.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV019" />
+      <field name="course_id" ref="COURSE09" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">5.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV020" />
+      <field name="course_id" ref="COURSE10" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">9.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV021" />
+      <field name="course_id" ref="COURSE10" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">6.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV022" />
+      <field name="course_id" ref="COURSE11" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">7.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV023" />
+      <field name="course_id" ref="COURSE11" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">9.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV024" />
+      <field name="course_id" ref="COURSE12" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">0.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV025" />
+      <field name="course_id" ref="COURSE12" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">4.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV026" />
+      <field name="course_id" ref="COURSE13" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">2.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV027" />
+      <field name="course_id" ref="COURSE13" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">3.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV028" />
+      <field name="course_id" ref="COURSE14" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">5.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV029" />
+      <field name="course_id" ref="COURSE14" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">0.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV030" />
+      <field name="course_id" ref="COURSE15" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">7.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV031" />
+      <field name="course_id" ref="COURSE15" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">4.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV032" />
+      <field name="course_id" ref="COURSE16" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">6.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV033" />
+      <field name="course_id" ref="COURSE16" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">1.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV034" />
+      <field name="course_id" ref="COURSE17" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">0.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV035" />
+      <field name="course_id" ref="COURSE17" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">1.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV036" />
+      <field name="course_id" ref="COURSE18" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">6.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV037" />
+      <field name="course_id" ref="COURSE18" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">4.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV038" />
+      <field name="course_id" ref="COURSE19" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">0.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV039" />
+      <field name="course_id" ref="COURSE19" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">0.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV040" />
+      <field name="course_id" ref="COURSE20" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">4.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV041" />
+      <field name="course_id" ref="COURSE20" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">5.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV042" />
+      <field name="course_id" ref="COURSE21" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">0.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV043" />
+      <field name="course_id" ref="COURSE21" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">5.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV044" />
+      <field name="course_id" ref="COURSE22" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">6.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV045" />
+      <field name="course_id" ref="COURSE22" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">3.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV046" />
+      <field name="course_id" ref="COURSE23" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">2.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV047" />
+      <field name="course_id" ref="COURSE23" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">8.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV048" />
+      <field name="course_id" ref="COURSE24" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">7.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV049" />
+      <field name="course_id" ref="COURSE24" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">2.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV050" />
+      <field name="course_id" ref="COURSE25" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">9.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV051" />
+      <field name="course_id" ref="COURSE26" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">6.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV052" />
+      <field name="course_id" ref="COURSE27" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">8.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV053" />
+      <field name="course_id" ref="COURSE27" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">4.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV054" />
+      <field name="course_id" ref="COURSE28" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">6.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV055" />
+      <field name="course_id" ref="COURSE28" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">9.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV056" />
+      <field name="course_id" ref="COURSE29" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">6.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV057" />
+      <field name="course_id" ref="COURSE29" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">0.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV058" />
+      <field name="course_id" ref="COURSE30" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">4.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV059" />
+      <field name="course_id" ref="COURSE30" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">9.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV060" />
+      <field name="course_id" ref="COURSE31" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">4.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV061" />
+      <field name="course_id" ref="COURSE31" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">4.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV062" />
+      <field name="course_id" ref="COURSE32" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">6.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV063" />
+      <field name="course_id" ref="COURSE32" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">1.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV064" />
+      <field name="course_id" ref="COURSE33" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">6.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV065" />
+      <field name="course_id" ref="COURSE33" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">0.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV066" />
+      <field name="course_id" ref="COURSE34" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">6.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV067" />
+      <field name="course_id" ref="COURSE34" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">8.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV068" />
+      <field name="course_id" ref="COURSE35" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">2.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV069" />
+      <field name="course_id" ref="COURSE35" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">5.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV070" />
+      <field name="course_id" ref="COURSE36" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">5.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV071" />
+      <field name="course_id" ref="COURSE36" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">5.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV072" />
+      <field name="course_id" ref="COURSE37" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">9.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV073" />
+      <field name="course_id" ref="COURSE37" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">9.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV074" />
+      <field name="course_id" ref="COURSE38" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">5.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV075" />
+      <field name="course_id" ref="COURSE38" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">7.7</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV076" />
+      <field name="course_id" ref="COURSE39" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">3.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV077" />
+      <field name="course_id" ref="COURSE39" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">4.6</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV078" />
+      <field name="course_id" ref="COURSE40" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">0.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV079" />
+      <field name="course_id" ref="COURSE40" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">8.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV080" />
+      <field name="course_id" ref="COURSE41" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">3.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV081" />
+      <field name="course_id" ref="COURSE41" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">0.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV082" />
+      <field name="course_id" ref="COURSE42" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">7.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV083" />
+      <field name="course_id" ref="COURSE42" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">8.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV084" />
+      <field name="course_id" ref="COURSE43" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">2.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV085" />
+      <field name="course_id" ref="COURSE43" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">2.3</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV086" />
+      <field name="course_id" ref="COURSE44" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">7.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV087" />
+      <field name="course_id" ref="COURSE44" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">0.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV088" />
+      <field name="course_id" ref="COURSE45" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">7.0</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV089" />
+      <field name="course_id" ref="COURSE45" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">1.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV090" />
+      <field name="course_id" ref="COURSE46" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">5.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV091" />
+      <field name="course_id" ref="COURSE46" />
+      <field name="start_date">2023-03-12</field>
+      <field name="end_date">2023-03-12</field>
+      <field name="grade">3.4</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV092" />
+      <field name="course_id" ref="COURSE47" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">4.5</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV093" />
+      <field name="course_id" ref="COURSE47" />
+      <field name="start_date">2023-08-28</field>
+      <field name="end_date">2023-08-28</field>
+      <field name="grade">8.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV094" />
+      <field name="course_id" ref="COURSE48" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">5.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV095" />
+      <field name="course_id" ref="COURSE48" />
+      <field name="start_date">2023-04-15</field>
+      <field name="end_date">2023-04-15</field>
+      <field name="grade">0.8</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV096" />
+      <field name="course_id" ref="COURSE49" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">8.1</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV097" />
+      <field name="course_id" ref="COURSE49" />
+      <field name="start_date">2023-05-20</field>
+      <field name="end_date">2023-05-20</field>
+      <field name="grade">0.9</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV098" />
+      <field name="course_id" ref="COURSE50" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">4.2</field>
+    </record>
+
+    <record model="student.grade">
+      <field name="student_id" ref="SV099" />
+      <field name="course_id" ref="COURSE50" />
+      <field name="start_date">2023-06-25</field>
+      <field name="end_date">2023-06-25</field>
+      <field name="grade">5.3</field>
+    </record>
+
+  </data>
+</odoo>

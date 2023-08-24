@@ -13,6 +13,11 @@
         "views/course_view.xml",
         "views/student_grade_view.xml",
     ],
+    "demo": [
+        "demo/students.xml",
+        "demo/courses.xml",
+        "demo/student_grades.xml",
+    ],
     "assets": {
         "web.assets_backend": [
             "student_grade_management/static/src/scss/student_grade_management.scss"
