@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+
+    <record id="SV001" model="student">
+      <field name="name">Nguyễn Văn A</field>
+      <field name="code">SV001</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1997-01-15</field>
+      <field name="phone">0123456789</field>
+      <field name="address">123 Cầu Giấy</field>
+    </record>
+
+    <record id="SV002" model="student">
+      <field name="name">Nguyễn Văn B</field>
+      <field name="code">SV002</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">1997-03-12</field>
+      <field name="phone">0123333666</field>
+      <field name="address">123 Nam Từ Liêm</field>
+    </record>
+
+    <record id="SV003" model="student">
+      <field name="name">Trần Thị C</field>
+      <field name="code">SV003</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1998-02-20</field>
+      <field name="phone">0166666999</field>
+      <field name="address">456 Hoàn Kiếm</field>
+    </record>
+
+    <record id="SV004" model="student">
+      <field name="name">Lê Văn D</field>
+      <field name="code">SV004</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1999-03-25</field>
+      <field name="phone">0932145678</field>
+      <field name="address">789 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV005" model="student">
+      <field name="name">Phạm Thị E</field>
+      <field name="code">SV005</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">2000-04-30</field>
+      <field name="phone">0905123123</field>
+      <field name="address">321 Ba Đình</field>
+    </record>
+
+    <record id="SV006" model="student">
+      <field name="name">Vũ Thanh F</field>
+      <field name="code">SV006</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2001-05-05</field>
+      <field name="phone">0977777888</field>
+      <field name="address">567 Thanh Xuân</field>
+    </record>
+
+    <record id="SV007" model="student">
+      <field name="name">Hồ Thị G</field>
+      <field name="code">SV007</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2002-06-10</field>
+      <field name="phone">0888888999</field>
+      <field name="address">654 Cầu Giấy</field>
+    </record>
+
+    <record id="SV008" model="student">
+      <field name="name">Ngô Đình H</field>
+      <field name="code">SV008</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1997-07-15</field>
+      <field name="phone">0965432101</field>
+      <field name="address">789 Đống Đa</field>
+    </record>
+
+    <record id="SV009" model="student">
+      <field name="name">Mai Thị I</field>
+      <field name="code">SV009</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1998-08-20</field>
+      <field name="phone">0911111222</field>
+      <field name="address">987 Long Biên</field>
+    </record>
+
+    <record id="SV010" model="student">
+      <field name="name">Trần Văn K</field>
+      <field name="code">SV010</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">1999-09-25</field>
+      <field name="phone">0944444555</field>
+      <field name="address">432 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV011" model="student">
+      <field name="name">Nguyễn Thị L</field>
+      <field name="code">SV011</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">2000-10-30</field>
+      <field name="phone">0912345678</field>
+      <field name="address">345 Cầu Giấy</field>
+    </record>
+
+    <record id="SV012" model="student">
+      <field name="name">Lê Đình M</field>
+      <field name="code">SV012</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">2001-11-05</field>
+      <field name="phone">0909090909</field>
+      <field name="address">234 Hoàn Kiếm</field>
+    </record>
+
+    <record id="SV013" model="student">
+      <field name="name">Phan Văn N</field>
+      <field name="code">SV013</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">2002-12-10</field>
+      <field name="phone">0933333444</field>
+      <field name="address">567 Nam Từ Liêm</field>
+    </record>
+
+    <record id="SV014" model="student">
+      <field name="name">Vũ Thị O</field>
+      <field name="code">SV014</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">1997-01-15</field>
+      <field name="phone">0966666777</field>
+      <field name="address">789 Hoàn Kiếm</field>
+    </record>
+
+    <record id="SV015" model="student">
+      <field name="name">Đinh Thanh P</field>
+      <field name="code">SV015</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">1998-02-20</field>
+      <field name="phone">0977777888</field>
+      <field name="address">987 Thanh Xuân</field>
+    </record>
+
+    <record id="SV016" model="student">
+      <field name="name">Trương Văn Q</field>
+      <field name="code">SV016</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1999-03-25</field>
+      <field name="phone">0988888999</field>
+      <field name="address">765 Cầu Giấy</field>
+    </record>
+
+    <record id="SV017" model="student">
+      <field name="name">Hà Thị R</field>
+      <field name="code">SV017</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">2000-04-30</field>
+      <field name="phone">0945678901</field>
+      <field name="address">543 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV018" model="student">
+      <field name="name">Lý Thanh S</field>
+      <field name="code">SV018</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">2001-05-05</field>
+      <field name="phone">0932145678</field>
+      <field name="address">234 Ba Đình</field>
+    </record>
+
+    <record id="SV019" model="student">
+      <field name="name">Nguyễn Văn T</field>
+      <field name="code">SV019</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">2002-06-10</field>
+      <field name="phone">0922222333</field>
+      <field name="address">678 Long Biên</field>
+    </record>
+
+    <record id="SV020" model="student">
+      <field name="name">Phạm Thị U</field>
+      <field name="code">SV020</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">1997-07-15</field>
+      <field name="phone">0933333444</field>
+      <field name="address">456 Thanh Xuân</field>
+    </record>
+
+    <record id="SV021" model="student">
+      <field name="name">Vũ Thị V</field>
+      <field name="code">SV021</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">1998-08-20</field>
+      <field name="phone">0944444555</field>
+      <field name="address">123 Cầu Giấy</field>
+    </record>
+
+    <record id="SV022" model="student">
+      <field name="name">Nguyễn Đình X</field>
+      <field name="code">SV022</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">1999-09-25</field>
+      <field name="phone">0955555666</field>
+      <field name="address">321 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV023" model="student">
+      <field name="name">Mai Văn Y</field>
+      <field name="code">SV023</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">2000-10-30</field>
+      <field name="phone">0966666777</field>
+      <field name="address">765 Hoàn Kiếm</field>
+    </record>
+
+    <record id="SV024" model="student">
+      <field name="name">Lê Thị Z</field>
+      <field name="code">SV024</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2001-11-05</field>
+      <field name="phone">0977777888</field>
+      <field name="address">567 Ba Đình</field>
+    </record>
+
+    <record id="SV025" model="student">
+      <field name="name">Trần Đình K</field>
+      <field name="code">SV025</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">2002-12-10</field>
+      <field name="phone">0988888999</field>
+      <field name="address">432 Nam Từ Liêm</field>
+    </record>
+
+    <record id="SV026" model="student">
+      <field name="name">Nguyễn Thị M</field>
+      <field name="code">SV026</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">1997-01-15</field>
+      <field name="phone">0999999000</field>
+      <field name="address">654 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV027" model="student">
+      <field name="name">Trần Văn N</field>
+      <field name="code">SV027</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">1998-02-20</field>
+      <field name="phone">0909876543</field>
+      <field name="address">567 Thanh Xuân</field>
+    </record>
+
+    <record id="SV028" model="student">
+      <field name="name">Lê Thị O</field>
+      <field name="code">SV028</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">1999-03-25</field>
+      <field name="phone">0998765432</field>
+      <field name="address">456 Long Biên</field>
+    </record>
+
+    <record id="SV029" model="student">
+      <field name="name">Nguyễn Văn P</field>
+      <field name="code">SV029</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">2000-04-30</field>
+      <field name="phone">0987654321</field>
+      <field name="address">789 Cầu Giấy</field>
+    </record>
+
+    <record id="SV030" model="student">
+      <field name="name">Trần Thị Q</field>
+      <field name="code">SV030</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">2001-05-05</field>
+      <field name="phone">0976543210</field>
+      <field name="address">123 Nam Từ Liêm</field>
+    </record>
+
+    <record id="SV031" model="student">
+      <field name="name">Phạm Đình R</field>
+      <field name="code">SV031</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">2002-06-10</field>
+      <field name="phone">0965432109</field>
+      <field name="address">234 Hoàn Kiếm</field>
+    </record>
+
+    <record id="SV032" model="student">
+      <field name="name">Vũ Thị S</field>
+      <field name="code">SV032</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">1997-07-15</field>
+      <field name="phone">0954321098</field>
+      <field name="address">567 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV033" model="student">
+      <field name="name">Hồ Văn T</field>
+      <field name="code">SV033</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1998-08-20</field>
+      <field name="phone">0943210987</field>
+      <field name="address">789 Thanh Xuân</field>
+    </record>
+
+    <record id="SV034" model="student">
+      <field name="name">Nguyễn Thị U</field>
+      <field name="code">SV034</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1999-09-25</field>
+      <field name="phone">0932109876</field>
+      <field name="address">123 Long Biên</field>
+    </record>
+
+    <record id="SV035" model="student">
+      <field name="name">Phan Thị V</field>
+      <field name="code">SV035</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2000-10-30</field>
+      <field name="phone">0921098765</field>
+      <field name="address">456 Cầu Giấy</field>
+    </record>
+
+    <record id="SV036" model="student">
+      <field name="name">Lý Văn X</field>
+      <field name="code">SV036</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2001-11-05</field>
+      <field name="phone">0910987654</field>
+      <field name="address">654 Ba Đình</field>
+    </record>
+
+    <record id="SV037" model="student">
+      <field name="name">Trương Văn Y</field>
+      <field name="code">SV037</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">2002-12-10</field>
+      <field name="phone">0909876543</field>
+      <field name="address">234 Nam Từ Liêm</field>
+    </record>
+
+    <record id="SV038" model="student">
+      <field name="name">Mai Thị Z</field>
+      <field name="code">SV038</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1997-01-15</field>
+      <field name="phone">0998765432</field>
+      <field name="address">789 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV039" model="student">
+      <field name="name">Lê Đình K</field>
+      <field name="code">SV039</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1998-02-20</field>
+      <field name="phone">0987654321</field>
+      <field name="address">321 Thanh Xuân</field>
+    </record>
+
+    <record id="SV040" model="student">
+      <field name="name">Trần Văn L</field>
+      <field name="code">SV040</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">1999-03-25</field>
+      <field name="phone">0976543210</field>
+      <field name="address">567 Long Biên</field>
+    </record>
+
+    <record id="SV041" model="student">
+      <field name="name">Nguyễn Thị M</field>
+      <field name="code">SV041</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">2000-04-30</field>
+      <field name="phone">0965432109</field>
+      <field name="address">234 Cầu Giấy</field>
+    </record>
+
+    <record id="SV042" model="student">
+      <field name="name">Phạm Văn N</field>
+      <field name="code">SV042</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">2001-05-05</field>
+      <field name="phone">0954321098</field>
+      <field name="address">789 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV043" model="student">
+      <field name="name">Vũ Thị O</field>
+      <field name="code">SV043</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2002-06-10</field>
+      <field name="phone">0943210987</field>
+      <field name="address">123 Nam Từ Liêm</field>
+    </record>
+
+    <record id="SV044" model="student">
+      <field name="name">Hồ Văn P</field>
+      <field name="code">SV044</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">1997-07-15</field>
+      <field name="phone">0932109876</field>
+      <field name="address">456 Hoàn Kiếm</field>
+    </record>
+
+    <record id="SV045" model="student">
+      <field name="name">Nguyễn Đình Q</field>
+      <field name="code">SV045</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">1998-08-20</field>
+      <field name="phone">0921098765</field>
+      <field name="address">765 Thanh Xuân</field>
+    </record>
+
+    <record id="SV046" model="student">
+      <field name="name">Trần Đình R</field>
+      <field name="code">SV046</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">1999-09-25</field>
+      <field name="phone">0910987654</field>
+      <field name="address">321 Ba Đình</field>
+    </record>
+
+    <record id="SV047" model="student">
+      <field name="name">Lê Thị S</field>
+      <field name="code">SV047</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">2000-10-30</field>
+      <field name="phone">0909876543</field>
+      <field name="address">567 Nam Từ Liêm</field>
+    </record>
+
+    <record id="SV048" model="student">
+      <field name="name">Phạm Văn T</field>
+      <field name="code">SV048</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">2001-11-05</field>
+      <field name="phone">0998765432</field>
+      <field name="address">234 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV049" model="student">
+      <field name="name">Vũ Thị U</field>
+      <field name="code">SV049</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">2002-12-10</field>
+      <field name="phone">0987654321</field>
+      <field name="address">789 Thanh Xuân</field>
+    </record>
+
+    <record id="SV050" model="student">
+      <field name="name">Nguyễn Văn V</field>
+      <field name="code">SV050</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">1997-01-15</field>
+      <field name="phone">0976543210</field>
+      <field name="address">123 Long Biên</field>
+    </record>
+
+    <record id="SV051" model="student">
+      <field name="name">Nguyễn Thị A</field>
+      <field name="code">SV051</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">1997-01-15</field>
+      <field name="phone">0123456789</field>
+      <field name="address">123 Cầu Giấy</field>
+    </record>
+
+    <record id="SV052" model="student">
+      <field name="name">Trần Văn B</field>
+      <field name="code">SV052</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1997-01-15</field>
+      <field name="phone">0123333666</field>
+      <field name="address">123 Nam Từ Liêm</field>
+    </record>
+
+    <record id="SV053" model="student">
+      <field name="name">Lê Thị C</field>
+      <field name="code">SV053</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">1998-02-20</field>
+      <field name="phone">0166666999</field>
+      <field name="address">456 Hoàn Kiếm</field>
+    </record>
+
+    <record id="SV054" model="student">
+      <field name="name">Phạm Văn D</field>
+      <field name="code">SV054</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1999-03-25</field>
+      <field name="phone">0932145678</field>
+      <field name="address">789 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV055" model="student">
+      <field name="name">Vũ Đình E</field>
+      <field name="code">SV055</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">2000-04-30</field>
+      <field name="phone">0905123123</field>
+      <field name="address">321 Ba Đình</field>
+    </record>
+
+    <record id="SV056" model="student">
+      <field name="name">Hồ Thị F</field>
+      <field name="code">SV056</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">2001-05-05</field>
+      <field name="phone">0977777888</field>
+      <field name="address">567 Thanh Xuân</field>
+    </record>
+
+    <record id="SV057" model="student">
+      <field name="name">Nguyễn Văn G</field>
+      <field name="code">SV057</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">2002-06-10</field>
+      <field name="phone">0888888999</field>
+      <field name="address">654 Cầu Giấy</field>
+    </record>
+
+    <record id="SV058" model="student">
+      <field name="name">Mai Văn H</field>
+      <field name="code">SV058</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">1997-07-15</field>
+      <field name="phone">0965432101</field>
+      <field name="address">789 Đống Đa</field>
+    </record>
+
+    <record id="SV059" model="student">
+      <field name="name">Trần Thị I</field>
+      <field name="code">SV059</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">1998-08-20</field>
+      <field name="phone">0911111222</field>
+      <field name="address">987 Long Biên</field>
+    </record>
+
+    <record id="SV060" model="student">
+      <field name="name">Lê Đình K</field>
+      <field name="code">SV060</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">1999-09-25</field>
+      <field name="phone">0944444555</field>
+      <field name="address">432 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV061" model="student">
+      <field name="name">Nguyễn Đình L</field>
+      <field name="code">SV061</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">2000-10-30</field>
+      <field name="phone">0912345678</field>
+      <field name="address">345 Cầu Giấy</field>
+    </record>
+
+    <record id="SV062" model="student">
+      <field name="name">Vũ Thị M</field>
+      <field name="code">SV062</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2001-11-05</field>
+      <field name="phone">0909090909</field>
+      <field name="address">234 Hoàn Kiếm</field>
+    </record>
+
+    <record id="SV063" model="student">
+      <field name="name">Trần Văn N</field>
+      <field name="code">SV063</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">2002-12-10</field>
+      <field name="phone">0933333444</field>
+      <field name="address">567 Nam Từ Liêm</field>
+    </record>
+
+    <record id="SV064" model="student">
+      <field name="name">Hồ Thị O</field>
+      <field name="code">SV064</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1997-01-15</field>
+      <field name="phone">0966666777</field>
+      <field name="address">789 Hoàn Kiếm</field>
+    </record>
+
+    <record id="SV065" model="student">
+      <field name="name">Nguyễn Đình P</field>
+      <field name="code">SV065</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">1998-02-20</field>
+      <field name="phone">0977777888</field>
+      <field name="address">987 Thanh Xuân</field>
+    </record>
+
+    <record id="SV066" model="student">
+      <field name="name">Phạm Thị Q</field>
+      <field name="code">SV066</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">1999-03-25</field>
+      <field name="phone">0988888999</field>
+      <field name="address">765 Cầu Giấy</field>
+    </record>
+
+    <record id="SV067" model="student">
+      <field name="name">Lê Văn R</field>
+      <field name="code">SV067</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">2000-04-30</field>
+      <field name="phone">0945678901</field>
+      <field name="address">543 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV068" model="student">
+      <field name="name">Vũ Đình S</field>
+      <field name="code">SV068</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">2001-05-05</field>
+      <field name="phone">0932145678</field>
+      <field name="address">234 Ba Đình</field>
+    </record>
+
+    <record id="SV069" model="student">
+      <field name="name">Nguyễn Thị T</field>
+      <field name="code">SV069</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2002-06-10</field>
+      <field name="phone">0922222333</field>
+      <field name="address">678 Long Biên</field>
+    </record>
+
+    <record id="SV070" model="student">
+      <field name="name">Mai Thị U</field>
+      <field name="code">SV070</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">1997-07-15</field>
+      <field name="phone">0933333444</field>
+      <field name="address">456 Thanh Xuân</field>
+    </record>
+
+    <record id="SV071" model="student">
+      <field name="name">Trần Văn V</field>
+      <field name="code">SV071</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1998-08-20</field>
+      <field name="phone">0944444555</field>
+      <field name="address">123 Cầu Giấy</field>
+    </record>
+
+    <record id="SV072" model="student">
+      <field name="name">Lê Thị X</field>
+      <field name="code">SV072</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">1999-09-25</field>
+      <field name="phone">0955555666</field>
+      <field name="address">321 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV073" model="student">
+      <field name="name">Nguyễn Đình Y</field>
+      <field name="code">SV073</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">2000-10-30</field>
+      <field name="phone">0966666777</field>
+      <field name="address">765 Hoàn Kiếm</field>
+    </record>
+
+    <record id="SV074" model="student">
+      <field name="name">Phạm Thị Z</field>
+      <field name="code">SV074</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2001-11-05</field>
+      <field name="phone">0977777888</field>
+      <field name="address">567 Ba Đình</field>
+    </record>
+
+    <record id="SV075" model="student">
+      <field name="name">Vũ Văn K</field>
+      <field name="code">SV075</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2002-12-10</field>
+      <field name="phone">0988888999</field>
+      <field name="address">432 Nam Từ Liêm</field>
+    </record>
+
+    <record id="SV076" model="student">
+      <field name="name">Nguyễn Văn M</field>
+      <field name="code">SV076</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">1997-01-15</field>
+      <field name="phone">0999999000</field>
+      <field name="address">654 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV077" model="student">
+      <field name="name">Trần Văn N</field>
+      <field name="code">SV077</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">1998-02-20</field>
+      <field name="phone">0909876543</field>
+      <field name="address">567 Thanh Xuân</field>
+    </record>
+
+    <record id="SV078" model="student">
+      <field name="name">Lê Văn O</field>
+      <field name="code">SV078</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">1999-03-25</field>
+      <field name="phone">0998765432</field>
+      <field name="address">456 Long Biên</field>
+    </record>
+
+    <record id="SV079" model="student">
+      <field name="name">Nguyễn Đình P</field>
+      <field name="code">SV079</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">2000-04-30</field>
+      <field name="phone">0987654321</field>
+      <field name="address">789 Cầu Giấy</field>
+    </record>
+
+    <record id="SV080" model="student">
+      <field name="name">Vũ Thị Q</field>
+      <field name="code">SV080</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2001-05-05</field>
+      <field name="phone">0976543210</field>
+      <field name="address">123 Nam Từ Liêm</field>
+    </record>
+
+    <record id="SV081" model="student">
+      <field name="name">Phạm Thị R</field>
+      <field name="code">SV081</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">2002-06-10</field>
+      <field name="phone">0965432109</field>
+      <field name="address">234 Hoàn Kiếm</field>
+    </record>
+
+    <record id="SV082" model="student">
+      <field name="name">Trần Văn S</field>
+      <field name="code">SV082</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">1997-07-15</field>
+      <field name="phone">0954321098</field>
+      <field name="address">567 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV083" model="student">
+      <field name="name">Nguyễn Thị T</field>
+      <field name="code">SV083</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1998-08-20</field>
+      <field name="phone">0943210987</field>
+      <field name="address">789 Thanh Xuân</field>
+    </record>
+
+    <record id="SV084" model="student">
+      <field name="name">Lê Đình U</field>
+      <field name="code">SV084</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1999-09-25</field>
+      <field name="phone">0932109876</field>
+      <field name="address">123 Long Biên</field>
+    </record>
+
+    <record id="SV085" model="student">
+      <field name="name">Phạm Đình V</field>
+      <field name="code">SV085</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">2000-10-30</field>
+      <field name="phone">0921098765</field>
+      <field name="address">456 Cầu Giấy</field>
+    </record>
+
+    <record id="SV086" model="student">
+      <field name="name">Vũ Thị X</field>
+      <field name="code">SV086</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2001-11-05</field>
+      <field name="phone">0910987654</field>
+      <field name="address">654 Ba Đình</field>
+    </record>
+
+    <record id="SV087" model="student">
+      <field name="name">Nguyễn Đình Y</field>
+      <field name="code">SV087</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">2002-12-10</field>
+      <field name="phone">0909876543</field>
+      <field name="address">234 Nam Từ Liêm</field>
+    </record>
+
+    <record id="SV088" model="student">
+      <field name="name">Trần Văn Z</field>
+      <field name="code">SV088</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">1997-01-15</field>
+      <field name="phone">0998765432</field>
+      <field name="address">789 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV089" model="student">
+      <field name="name">Lê Thị K</field>
+      <field name="code">SV089</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">1998-02-20</field>
+      <field name="phone">0987654321</field>
+      <field name="address">765 Thanh Xuân</field>
+    </record>
+
+    <record id="SV090" model="student">
+      <field name="name">Nguyễn Văn L</field>
+      <field name="code">SV090</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-3.png" />
+      <field name="birthday">1999-03-25</field>
+      <field name="phone">0976543210</field>
+      <field name="address">543 Long Biên</field>
+    </record>
+
+    <record id="SV091" model="student">
+      <field name="name">Phạm Thị M</field>
+      <field name="code">SV091</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2000-04-30</field>
+      <field name="phone">0965432109</field>
+      <field name="address">321 Cầu Giấy</field>
+    </record>
+
+    <record id="SV092" model="student">
+      <field name="name">Vũ Văn N</field>
+      <field name="code">SV092</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2001-05-05</field>
+      <field name="phone">0954321098</field>
+      <field name="address">234 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV093" model="student">
+      <field name="name">Trần Thị O</field>
+      <field name="code">SV093</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2002-06-10</field>
+      <field name="phone">0943210987</field>
+      <field name="address">678 Nam Từ Liêm</field>
+    </record>
+
+    <record id="SV094" model="student">
+      <field name="name">Lê Văn P</field>
+      <field name="code">SV094</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1997-07-15</field>
+      <field name="phone">0932109876</field>
+      <field name="address">765 Hoàn Kiếm</field>
+    </record>
+
+    <record id="SV095" model="student">
+      <field name="name">Nguyễn Đình Q</field>
+      <field name="code">SV095</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">1998-08-20</field>
+      <field name="phone">0921098765</field>
+      <field name="address">321 Thanh Xuân</field>
+    </record>
+
+    <record id="SV096" model="student">
+      <field name="name">Trần Thị R</field>
+      <field name="code">SV096</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">1999-09-25</field>
+      <field name="phone">0910987654</field>
+      <field name="address">567 Long Biên</field>
+    </record>
+
+    <record id="SV097" model="student">
+      <field name="name">Lê Văn S</field>
+      <field name="code">SV097</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">2000-10-30</field>
+      <field name="phone">0909876543</field>
+      <field name="address">234 Cầu Giấy</field>
+    </record>
+
+    <record id="SV098" model="student">
+      <field name="name">Nguyễn Thị T</field>
+      <field name="code">SV098</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-4.png" />
+      <field name="birthday">2001-11-05</field>
+      <field name="phone">0998765432</field>
+      <field name="address">789 Hai Bà Trưng</field>
+    </record>
+
+    <record id="SV099" model="student">
+      <field name="name">Trần Đình U</field>
+      <field name="code">SV099</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-1.png" />
+      <field name="birthday">2002-12-10</field>
+      <field name="phone">0987654321</field>
+      <field name="address">123 Nam Từ Liêm</field>
+    </record>
+
+    <record id="SV100" model="student">
+      <field name="name">Trần Hòang T</field>
+      <field name="code">SV100</field>
+      <field name="avatar" type="base64"
+        file="student_grade_management/static/demo/img/avatar-2.png" />
+      <field name="birthday">1999-12-10</field>
+      <field name="phone">0987654322</field>
+      <field name="address">123 Tu Hoàng</field>
+    </record>
+
+  </data>
+</odoo>

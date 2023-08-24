@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+
+    <record id="COURSE01" model="course">
+      <field name="name">Học phần A</field>
+      <field name="code">COURSE01</field>
+      <field name="credits">5</field>
+      <field name="tuition_fee">1000000</field>
+      <field name="description">Đây là học phần A</field>
+    </record>
+
+    <record id="COURSE02" model="course">
+      <field name="name">Học phần B</field>
+      <field name="code">COURSE02</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">2500000</field>
+      <field name="description">Đây là học phần B</field>
+    </record>
+
+    <record id="COURSE03" model="course">
+      <field name="name">Học phần C</field>
+      <field name="code">COURSE03</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">3000000</field>
+      <field name="description">Đây là học phần C</field>
+    </record>
+
+    <record id="COURSE04" model="course">
+      <field name="name">Học phần D</field>
+      <field name="code">COURSE04</field>
+      <field name="credits">2</field>
+      <field name="tuition_fee">1500000</field>
+      <field name="description">Đây là học phần D</field>
+    </record>
+
+    <record id="COURSE05" model="course">
+      <field name="name">Học phần E</field>
+      <field name="code">COURSE05</field>
+      <field name="credits">5</field>
+      <field name="tuition_fee">500000</field>
+      <field name="description">Đây là học phần E</field>
+    </record>
+
+    <record id="COURSE06" model="course">
+      <field name="name">Học phần F</field>
+      <field name="code">COURSE06</field>
+      <field name="credits">5</field>
+      <field name="tuition_fee">2000000</field>
+      <field name="description">Đây là học phần F</field>
+    </record>
+
+    <record id="COURSE07" model="course">
+      <field name="name">Học phần G</field>
+      <field name="code">COURSE07</field>
+      <field name="credits">4</field>
+      <field name="tuition_fee">800000</field>
+      <field name="description">Đây là học phần G</field>
+    </record>
+
+    <record id="COURSE08" model="course">
+      <field name="name">Học phần H</field>
+      <field name="code">COURSE08</field>
+      <field name="credits">2</field>
+      <field name="tuition_fee">3500000</field>
+      <field name="description">Đây là học phần H</field>
+    </record>
+
+    <record id="COURSE09" model="course">
+      <field name="name">Học phần I</field>
+      <field name="code">COURSE09</field>
+      <field name="credits">2</field>
+      <field name="tuition_fee">1800000</field>
+      <field name="description">Đây là học phần I</field>
+    </record>
+
+    <record id="COURSE10" model="course">
+      <field name="name">Học phần J</field>
+      <field name="code">COURSE10</field>
+      <field name="credits">4</field>
+      <field name="tuition_fee">600000</field>
+      <field name="description">Đây là học phần J</field>
+    </record>
+
+    <record id="COURSE11" model="course">
+      <field name="name">Học phần K</field>
+      <field name="code">COURSE11</field>
+      <field name="credits">5</field>
+      <field name="tuition_fee">3200000</field>
+      <field name="description">Đây là học phần K</field>
+    </record>
+
+    <record id="COURSE12" model="course">
+      <field name="name">Học phần L</field>
+      <field name="code">COURSE12</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">1700000</field>
+      <field name="description">Đây là học phần L</field>
+    </record>
+
+    <record id="COURSE13" model="course">
+      <field name="name">Học phần M</field>
+      <field name="code">COURSE13</field>
+      <field name="credits">5</field>
+      <field name="tuition_fee">550000</field>
+      <field name="description">Đây là học phần M</field>
+    </record>
+
+    <record id="COURSE14" model="course">
+      <field name="name">Học phần N</field>
+      <field name="code">COURSE14</field>
+      <field name="credits">4</field>
+      <field name="tuition_fee">2800000</field>
+      <field name="description">Đây là học phần N</field>
+    </record>
+
+    <record id="COURSE15" model="course">
+      <field name="name">Học phần O</field>
+      <field name="code">COURSE15</field>
+      <field name="credits">5</field>
+      <field name="tuition_fee">1200000</field>
+      <field name="description">Đây là học phần O</field>
+    </record>
+
+    <record id="COURSE16" model="course">
+      <field name="name">Học phần P</field>
+      <field name="code">COURSE16</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">700000</field>
+      <field name="description">Đây là học phần P</field>
+    </record>
+
+    <record id="COURSE17" model="course">
+      <field name="name">Học phần Q</field>
+      <field name="code">COURSE17</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">2400000</field>
+      <field name="description">Đây là học phần Q</field>
+    </record>
+
+    <record id="COURSE18" model="course">
+      <field name="name">Học phần R</field>
+      <field name="code">COURSE18</field>
+      <field name="credits">4</field>
+      <field name="tuition_fee">3300000</field>
+      <field name="description">Đây là học phần R</field>
+    </record>
+
+    <record id="COURSE19" model="course">
+      <field name="name">Học phần S</field>
+      <field name="code">COURSE19</field>
+      <field name="credits">4</field>
+      <field name="tuition_fee">450000</field>
+      <field name="description">Đây là học phần S</field>
+    </record>
+
+    <record id="COURSE20" model="course">
+      <field name="name">Học phần T</field>
+      <field name="code">COURSE20</field>
+      <field name="credits">2</field>
+      <field name="tuition_fee">1900000</field>
+      <field name="description">Đây là học phần T</field>
+    </record>
+
+    <record id="COURSE21" model="course">
+      <field name="name">Học phần U</field>
+      <field name="code">COURSE21</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">2700000</field>
+      <field name="description">Đây là học phần U</field>
+    </record>
+
+    <record id="COURSE22" model="course">
+      <field name="name">Học phần V</field>
+      <field name="code">COURSE22</field>
+      <field name="credits">4</field>
+      <field name="tuition_fee">600000</field>
+      <field name="description">Đây là học phần V</field>
+    </record>
+
+    <record id="COURSE23" model="course">
+      <field name="name">Học phần W</field>
+      <field name="code">COURSE23</field>
+      <field name="credits">4</field>
+      <field name="tuition_fee">2300000</field>
+      <field name="description">Đây là học phần W</field>
+    </record>
+
+    <record id="COURSE24" model="course">
+      <field name="name">Học phần X</field>
+      <field name="code">COURSE24</field>
+      <field name="credits">4</field>
+      <field name="tuition_fee">3600000</field>
+      <field name="description">Đây là học phần X</field>
+    </record>
+
+    <record id="COURSE25" model="course">
+      <field name="name">Học phần Y</field>
+      <field name="code">COURSE25</field>
+      <field name="credits">4</field>
+      <field name="tuition_fee">1600000</field>
+      <field name="description">Đây là học phần Y</field>
+    </record>
+
+    <record id="COURSE26" model="course">
+      <field name="name">Học phần Z</field>
+      <field name="code">COURSE26</field>
+      <field name="credits">5</field>
+      <field name="tuition_fee">700000</field>
+      <field name="description">Đây là học phần Z</field>
+    </record>
+
+    <record id="COURSE27" model="course">
+      <field name="name">Học phần AA</field>
+      <field name="code">COURSE27</field>
+      <field name="credits">4</field>
+      <field name="tuition_fee">2200000</field>
+      <field name="description">Đây là học phần AA</field>
+    </record>
+
+    <record id="COURSE28" model="course">
+      <field name="name">Học phần AB</field>
+      <field name="code">COURSE28</field>
+      <field name="credits">5</field>
+      <field name="tuition_fee">3100000</field>
+      <field name="description">Đây là học phần AB</field>
+    </record>
+
+    <record id="COURSE29" model="course">
+      <field name="name">Học phần AC</field>
+      <field name="code">COURSE29</field>
+      <field name="credits">4</field>
+      <field name="tuition_fee">500000</field>
+      <field name="description">Đây là học phần AC</field>
+    </record>
+
+    <record id="COURSE30" model="course">
+      <field name="name">Học phần AD</field>
+      <field name="code">COURSE30</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">2100000</field>
+      <field name="description">Đây là học phần AD</field>
+    </record>
+
+    <record id="COURSE31" model="course">
+      <field name="name">Học phần AE</field>
+      <field name="code">COURSE31</field>
+      <field name="credits">5</field>
+      <field name="tuition_fee">2900000</field>
+      <field name="description">Đây là học phần AE</field>
+    </record>
+
+    <record id="COURSE32" model="course">
+      <field name="name">Học phần AF</field>
+      <field name="code">COURSE32</field>
+      <field name="credits">4</field>
+      <field name="tuition_fee">400000</field>
+      <field name="description">Đây là học phần AF</field>
+    </record>
+
+    <record id="COURSE33" model="course">
+      <field name="name">Học phần AG</field>
+      <field name="code">COURSE33</field>
+      <field name="credits">5</field>
+      <field name="tuition_fee">2000000</field>
+      <field name="description">Đây là học phần AG</field>
+    </record>
+
+    <record id="COURSE34" model="course">
+      <field name="name">Học phần AH</field>
+      <field name="code">COURSE34</field>
+      <field name="credits">5</field>
+      <field name="tuition_fee">3400000</field>
+      <field name="description">Đây là học phần AH</field>
+    </record>
+
+    <record id="COURSE35" model="course">
+      <field name="name">Học phần AI</field>
+      <field name="code">COURSE35</field>
+      <field name="credits">4</field>
+      <field name="tuition_fee">1500000</field>
+      <field name="description">Đây là học phần AI</field>
+    </record>
+
+    <record id="COURSE36" model="course">
+      <field name="name">Học phần AJ</field>
+      <field name="code">COURSE36</field>
+      <field name="credits">5</field>
+      <field name="tuition_fee">600000</field>
+      <field name="description">Đây là học phần AJ</field>
+    </record>
+
+    <record id="COURSE37" model="course">
+      <field name="name">Học phần AK</field>
+      <field name="code">COURSE37</field>
+      <field name="credits">2</field>
+      <field name="tuition_fee">2600000</field>
+      <field name="description">Đây là học phần AK</field>
+    </record>
+
+    <record id="COURSE38" model="course">
+      <field name="name">Học phần AL</field>
+      <field name="code">COURSE38</field>
+      <field name="credits">2</field>
+      <field name="tuition_fee">1400000</field>
+      <field name="description">Đây là học phần AL</field>
+    </record>
+
+    <record id="COURSE39" model="course">
+      <field name="name">Học phần AM</field>
+      <field name="code">COURSE39</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">550000</field>
+      <field name="description">Đây là học phần AM</field>
+    </record>
+
+    <record id="COURSE40" model="course">
+      <field name="name">Học phần AN</field>
+      <field name="code">COURSE40</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">2500000</field>
+      <field name="description">Đây là học phần AN</field>
+    </record>
+
+    <record id="COURSE41" model="course">
+      <field name="name">Học phần AO</field>
+      <field name="code">COURSE41</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">1300000</field>
+      <field name="description">Đây là học phần AO</field>
+    </record>
+
+    <record id="COURSE42" model="course">
+      <field name="name">Học phần AP</field>
+      <field name="code">COURSE42</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">700000</field>
+      <field name="description">Đây là học phần AP</field>
+    </record>
+
+    <record id="COURSE43" model="course">
+      <field name="name">Học phần AQ</field>
+      <field name="code">COURSE43</field>
+      <field name="credits">5</field>
+      <field name="tuition_fee">1800000</field>
+      <field name="description">Đây là học phần AQ</field>
+    </record>
+
+    <record id="COURSE44" model="course">
+      <field name="name">Học phần AR</field>
+      <field name="code">COURSE44</field>
+      <field name="credits">5</field>
+      <field name="tuition_fee">2300000</field>
+      <field name="description">Đây là học phần AR</field>
+    </record>
+
+    <record id="COURSE45" model="course">
+      <field name="name">Học phần AS</field>
+      <field name="code">COURSE45</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">450000</field>
+      <field name="description">Đây là học phần AS</field>
+    </record>
+
+    <record id="COURSE46" model="course">
+      <field name="name">Học phần AT</field>
+      <field name="code">COURSE46</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">1700000</field>
+      <field name="description">Đây là học phần AT</field>
+    </record>
+
+    <record id="COURSE47" model="course">
+      <field name="name">Học phần AU</field>
+      <field name="code">COURSE47</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">2200000</field>
+      <field name="description">Đây là học phần AU</field>
+    </record>
+
+    <record id="COURSE48" model="course">
+      <field name="name">Học phần AV</field>
+      <field name="code">COURSE48</field>
+      <field name="credits">4</field>
+      <field name="tuition_fee">1600000</field>
+      <field name="description">Đây là học phần AV</field>
+    </record>
+
+    <record id="COURSE49" model="course">
+      <field name="name">Học phần AW</field>
+      <field name="code">COURSE49</field>
+      <field name="credits">3</field>
+      <field name="tuition_fee">400000</field>
+      <field name="description">Đây là học phần AW</field>
+    </record>
+
+    <record id="COURSE50" model="course">
+      <field name="name">Học phần AX</field>
+      <field name="code">COURSE50</field>
+      <field name="credits">2</field>
+      <field name="tuition_fee">2100000</field>
+      <field name="description">Đây là học phần AX</field>
+    </record>
+
+  </data>
+</odoo>
