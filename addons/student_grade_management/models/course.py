@@ -1,5 +1,4 @@
-from odoo import models, fields, api
-from odoo.exceptions import ValidationError
+from odoo import models, fields
 
 
 class Course(models.Model):
@@ -26,3 +25,18 @@ class Course(models.Model):
 
     def get_high_or_equal_grades(self, grade_min=5):
         return self.student_grade_ids.filtered(lambda grade: grade.grade >= grade_min)
+
+    def action_generate_course_report(self):
+        return self.env.ref(
+            "student_grade_management.action_report_course"
+        ).report_action(self)
+
+    def action_generate_report_students_below_5(self):
+        return self.env.ref(
+            "student_grade_management.action_report_students_below_5"
+        ).report_action(self)
+
+    def action_generate_report_students_above_5(self):
+        return self.env.ref(
+            "student_grade_management.action_report_students_above_5"
+        ).report_action(self)
